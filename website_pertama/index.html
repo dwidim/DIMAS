@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Saya</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #534caf;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background: #090022;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #4CAF50;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .profile {
+      text-align: center;
+    }
+    .profile img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 15px; 
+      border: 3px solid #534caf;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 2px solid #ccc;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+    button {
+      background: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi!!!</h1>
+  </header>
+
+  <nav>
+    <a href="#profile">Profile</a>
+    <a href="#about">About</a>
+    <a href="#project">Project</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+   <section id="about">
+    <h2>About this page</h2>
+    <p>
+      I will show all my project, about 3D design, PCB design, and more. So i hope you enjoy see my page
+    </p>
+  </section>
+
+  <section id="profile" class="profile">
+    <img src="test.jpg">
+    <h2>Dimas Dwi Septian</h2>
+    <p>Telkom University student</p>
+    <p>I have a hobby of 3D and PCB design</p>
+    <p>Here are some projects that I will share</p>
+  </section>
+
+
+  <section id="project">
+    <h2>My Projects</h2>
+    <h3>3D Design</h3>
+    <h4>Smart Home</h4>
+    <div class="gallery">
+      <img src="smart_home1.png" >
+      <img src="smart_home2.png" >
+      <p>Untuk menyelesaikan tugas besar mata kuliah IoT saya membuat skala simulasi smart home dengan beberapa sensor sebagai fiturnya, seperti sensor gas, air, cahaya, serta menggunakan aktuator servo sebagai mekanisme buka tutup pintu dan jendela, bahan body dari alat ini menggunakan filamen.</p>
+    </div>
+    <h4>Atap Otomatis</h4>
+    <div class="gallery">
+      <img src="atap_otomatis1.png" >
+      <img src="atap_otomatis2.png" >
+      <p>Untuk menyelesaikan tugas besar mata kuliah Sensor dan Aktuator saya membuat skala simulasi Atap Otomatis dengan beberapa sensor sebagai fiturnya, seperti air dan cahaya, serta menggunakan aktuator motor JGA sebagai mekanisme geser untuk atap, bahan body dari alat ini menggunakan filamen.</p>
+    </div>
+    <h4>Holder Camera Raspi</h4>
+    <div class="gallery">
+      <img src="holder_cam_raspi1.png" >
+      <img src="holder_cam_raspi2.png" >
+      <p>Holder untuk kamera raspi yang memungkinkan penambahan filter di depannya, bisa berupa kaca dengan tebal maksimal 3mm yang dilapisi kacafilm tertentu.</p>
+    </div>
+    <h4>Filter Limbah</h4>
+    <div class="gallery">
+      <img src="filter_limbah (1).png" >
+      <img src="PH.png" >
+      <img src="POMPA.png" >
+      <img src="ULTRASONIK.png" >
+      <img src="TURBIDITY.png" >
+      <img src="filter_limbah (4).png" >
+      <p>Alat skala simulasi untuk memfilter limbah industri, dengan cara distrum melalui plat besi lalu setelah dilakukan filterisasi maka pompa akan mengambil air bersih lalu menaruhnya ke bagian lain. Terdapat juga sensor pH dan turbidity untuk mengukur kualitas air lalu sensor ultrasonik untuk mengukur level air dalam wadah simulasi.</p>
+    </div>
+    <h4>Automated River Cleaning</h4>
+    <div class="gallery">
+      <img src="CD1.png" >
+      <img src="CD3.png" >
+      <img src="CD2.png" >
+      <p>Automated River Cleaning adalah alat pembersih sungai otomatis yang memppunyai fitur dapat beroperasi secara otomatis dengan radius 50 meter dan dapat memilah sampah logam dan non-logam, serta dapat memonitoring berat sampah yang sudah ditampung dan kualitas air sungai.</p>
+    </div>
+        <h4>Casing Raspi 4 Model-B</h4>
+    <div class="gallery">
+      <img src="casing_raspi_4.png" >
+      <img src="casing-raspi_4_2.png" >
+      <img src="casing-raspi_4_3.png" >
+      <p>Casing untuk Raspi 4 model B beserta 5G modul yang sudah terintegrasi di dalam casing.</p>
+    </div>
+    <h3>PCB Design</h3>
+    <div class="gallery"> 
+      <img src="https://via.placeholder.com/200x150" alt="Project 2">
+    </div>
+  </section>
+
+  <section id="kontak">
+    <h2>Kontak</h2>
+    <p>Email: dimasdwiseptian04@gmail.com</p>
+    <p>Instagram: @dwidiim</p>
+    <button onclick="sapa()">Kirim Pesan</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Profil Website Sederhana</p>
+  </footer>
+
+  <script>
+    function sapa() {
+      alert("Terima kasih sudah mengunjungi profil saya!");
+    }
+  </script>
+</body>
+</html>
